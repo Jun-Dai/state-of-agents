@@ -14,7 +14,15 @@ Ask the agent to generate an image of a wine glass that is full to the brim of r
 
 | Agent | Score | Notes |
 |---|---|---|
-| | | |
+| GPT 5.3 Instant | fail, almost passes | Fuller than typical model output; wine is just shy of the brim (close enough most humans would call it full), but no meniscus above the rim |
+
+## Responses
+
+### GPT 5.3 Instant — *fail, almost passes*
+
+![GPT 5.3 Instant output](./gpt-5.3-instant.jpg)
+
+Fuller than any prior model output observed. Wine level is just shy of the brim — close enough that most humans would call it full — but there is no meniscus extending above the rim as requested.
 
 ## Evaluation Criteria
 

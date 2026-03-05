@@ -7,7 +7,7 @@ Tracking AI agent capabilities across a range of tasks to measure and compare pe
 | Category | Task | Status |
 |---|---|---|
 | [Chats](./chats/) | [100m Car Wash](./chats/100m-car-wash/) | |
-| [Image Generation](./image-generation/) | [Overflowing Wine Glass](./image-generation/overflowing-wine-glass/) | |
+| [Image Generation](./image-generation/) | [Wine Glass Full to the Brim](./image-generation/wine-glass-full-to-brim/) | |
 | [Sheet Music](./sheet-music/) | [Three Blind Mice](./sheet-music/three-blind-mice/) | |
 | [Coding](./coding/) | [Convert CommonJS to ESM](./coding/convert-commonjs-to-esm/) | |
 

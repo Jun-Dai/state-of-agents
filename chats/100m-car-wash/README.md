@@ -15,6 +15,7 @@ A simple, practical question with an amusing logical tension: the car wash is so
 | Agent | Score | Notes |
 |---|---|---|
 | GPT 5.3 Instant | correct, but weird | |
+| GPT 5.2 Thinking | fail | |
 
 ## Responses
 
@@ -39,6 +40,17 @@ A simple, practical question with an amusing logical tension: the car wash is so
 > Practical verdict
 > Just drive it. The distance is so small that the fuel used is negligible, and you're already planning to run the car through machinery that uses far more water and energy than the drive itself.
 > If you're curious, though, there's actually a fun physics question here: at ~100 m, the cold-start fuel burn might be the dominant factor. If you'd like, I can estimate how much fuel that tiny drive actually costs.
+
+### GPT 5.2 Thinking — *fail*
+
+> Walk.
+> 100 meters is about a 1–2 minute walk, and you're going to the car wash because the car is dirty—driving it there just adds a little more road grime (and you'll still have to park / queue / maneuver). Walking also lets you arrive, check the line/prices, and then pull the car over only when you're ready to start.
+> Only real reasons to drive that distance:
+> * it's icy/unsafe to walk,
+> * you're carrying bulky stuff (coins, mats, cleaning kit) and don't want to lug it,
+> * or you're already in the car and literally passing it.
+>
+> Otherwise: stroll over, then bring the car when it's time.
 
 ## Evaluation Criteria
 

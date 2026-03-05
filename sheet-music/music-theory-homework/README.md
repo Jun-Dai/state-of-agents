@@ -10,13 +10,21 @@ The agent is shown an image of music theory homework and asked to evaluate it an
 
 > Does what I've done look right here and how would you do it?
 
+**Input image:** ![homework](./homework.jpg)
+
 ## Results
+
+*Tests run: 2026-03-05*
 
 | Agent | Score | Notes |
 |---|---|---|
-| | | |
+| ChatGPT - Auto | fail | Impressive image parsing, but makes key transcription mistakes and mistakes on the actual answer |
 
 ## Responses
+
+### ChatGPT - Auto — *fail*
+
+*Response text to be added.*
 
 ## Evaluation Criteria
 

@@ -24,7 +24,9 @@ The agent is shown an image of music theory homework and asked to evaluate it an
 
 ### ChatGPT - Auto — *fail*
 
-*Response text to be added.*
+See [chatgpt-auto.md](./chatgpt-auto.md) for full response.
+
+Impressive image parsing overall, but makes key transcription mistakes and mistakes on the actual answer — too much to forgive for a pass.
 
 ## Evaluation Criteria
 

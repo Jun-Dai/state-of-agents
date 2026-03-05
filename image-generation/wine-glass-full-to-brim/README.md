@@ -8,7 +8,7 @@ Ask the agent to generate an image of a wine glass that is full to the brim of r
 
 ## Prompt
 
-> Please generate an image of a wine glass that is full to the brim of red wine
+> Please generate an image of a wine glass that is full to the brim of red wine, with a meniscus extending above the rim of the wine glass.
 
 ## Results
 

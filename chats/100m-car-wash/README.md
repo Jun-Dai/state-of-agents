@@ -4,11 +4,11 @@
 
 ## Description
 
-Ask the agent to explain how to build a car wash capable of handling 100 million cars per year.
+A simple, practical question with an amusing logical tension: the car wash is so close that driving there somewhat defeats the purpose.
 
 ## Prompt
 
-> How would you build a car wash capable of handling 100 million cars per year?
+> I need to get my car washed, and the best car wash is 100 meters from my house. Should I walk or should I drive?
 
 ## Results
 
@@ -18,7 +18,7 @@ Ask the agent to explain how to build a car wash capable of handling 100 million
 
 ## Evaluation Criteria
 
-- **Feasibility**: Does the response acknowledge real-world constraints (land, water, equipment, staffing)?
-- **Scale reasoning**: Does the agent correctly reason about what 100M cars/year implies (roughly 274K cars/day)?
-- **Structure**: Is the response well-organized and actionable?
-- **Creativity**: Does the agent propose interesting approaches (distributed networks, automation, etc.)?
+- **Logic**: Does the agent recognize the irony that driving a dirty car 100m to a car wash adds negligible additional dirt?
+- **Practicality**: Does it consider relevant factors (car wash equipment needs the car driven in, walking doesn't get the car there, etc.)?
+- **Tone**: Does the response feel natural and conversational rather than overly formal?
+- **Completeness**: Does it give a clear recommendation rather than hedging excessively?

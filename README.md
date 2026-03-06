@@ -8,7 +8,7 @@ Tracking AI agent capabilities across a range of tasks to measure and compare pe
 |---|---|---|---|
 | [Chats](./chats/) | [100m Car Wash](./chats/100m-car-wash/) | 2 | correct, but weird (GPT 5.3 Instant) |
 | [Image Generation](./image-generation/) | [Wine Glass Full to the Brim](./image-generation/wine-glass-full-to-brim/) | 2 | fail, almost passes (both) |
-| [Sheet Music](./sheet-music/) | [Three Blind Mice](./sheet-music/three-blind-mice/) | 0 | not yet tested |
+| [Sheet Music](./sheet-music/) | [Three Blind Mice](./sheet-music/three-blind-mice/) | 1 | fail (GPT 5.3 Instant) |
 | [Sheet Music](./sheet-music/) | [Music Theory Homework](./sheet-music/music-theory-homework/) | 1 | fail (ChatGPT Auto) |
 | [Coding](./coding/) | [Convert CommonJS to ESM](./coding/convert-commonjs-to-esm/) | 0 | not yet tested |
 

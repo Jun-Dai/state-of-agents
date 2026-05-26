@@ -6,7 +6,7 @@ Tracking AI agent capabilities across a range of tasks to measure and compare pe
 
 | Category | Task | Agents tested | Best result |
 |---|---|---|---|
-| [Chats](./chats/) | [100m Car Wash](./chats/100m-car-wash/) | 5 | pass (ChatGPT 5.5 Pro Extended) |
+| [Chats](./chats/) | [100m Car Wash](./chats/100m-car-wash/) | 6 | pass (ChatGPT 5.5 Pro Extended) |
 | [Chats](./chats/) | [Scientific Inquiry Quote](./chats/scientific-inquiry-quote/) | 0 | not yet tested |
 | [Image Generation](./image-generation/) | [Wine Glass Full to the Brim](./image-generation/wine-glass-full-to-brim/) | 2 | fail, almost passes (both) |
 | [Sheet Music](./sheet-music/) | [Three Blind Mice](./sheet-music/three-blind-mice/) | 0 | not yet tested |

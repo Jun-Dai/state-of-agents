@@ -19,6 +19,7 @@ A simple, practical question with an amusing logical tension: the car wash is so
 | ChatGPT 5.5 Pro Extended | pass | |
 | Claude Sonnet 4.6 | fail | |
 | Claude Opus 4.6 | pass, verbose | |
+| Claude Opus 4.7 | fail | |
 
 ## Responses
 
@@ -101,6 +102,21 @@ The response recommends walking but then contradicts itself by suggesting to "wa
 > The only scenario where you'd walk is if you're dropping off the car and they offer a pick-up/delivery service, but even then, driving it there first is the logical move!
 
 Gets the answer right immediately and clearly: "You should drive 🚗". Recognizes the key point that "you need to bring your car with you!" The response is somewhat verbose but logically sound throughout.
+
+### Claude Opus 4.7 — *fail*
+
+> Walk! 100 meters is a really short distance — about a 1-minute walk. Driving makes no sense here for several reasons:
+>
+> It's faster to walk. By the time you get in your car, start it, and pull out, you could already be there on foot.
+> You're getting the car washed. Driving a dirty car 100 meters just to wash it is fine, but here's the kicker — if you drive there, you then have to drive your freshly-washed car back home, which kind of defeats part of the point (though admittedly 100m of clean road won't dirty it much).
+> Parking and maneuvering at the car wash for such a trivial distance is more hassle than the walk itself.
+> The only reason to drive would be… well, if the car wash requires you to bring the car. 😄
+>
+> Wait — you need the car washed. That means the car has to get there somehow. Unless the car wash comes to you (mobile detailing), you'll need to drive it there. You can't walk your car to the car wash.
+>
+> So the real answer: drive the car (since the car is what's being washed), then optionally walk back home while it's being cleaned if you don't want to wait around. 🚗🧼
+
+Starts confidently with "Walk!" and builds an entire argument for walking before realizing mid-response that the car needs to be at the car wash. While it eventually self-corrects to the right answer, the initial reasoning is fundamentally flawed. A passing response should identify the core logic immediately, not stumble into it after several paragraphs of wrong reasoning.
 
 ## Evaluation Criteria
 

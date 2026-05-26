@@ -14,12 +14,17 @@ A simple, practical question with an amusing logical tension: the car wash is so
 
 | Agent | Score | Notes |
 |---|---|---|
-| ChatGPT (GPT 5.3 Instant) | correct, but weird | |
-| ChatGPT (GPT 5.2 Thinking) | fail | |
-| ChatGPT 5.5 Pro Extended | pass | |
-| Claude Sonnet 4.6 | fail | |
-| Claude Opus 4.6 | pass, verbose | |
-| Claude Opus 4.7 | fail | |
+| ChatGPT (GPT 5.3 Instant) | correct, but weird | chatgpt.com agent |
+| ChatGPT (GPT 5.2 Thinking) | fail | chatgpt.com agent |
+| ChatGPT 5.5 Pro Extended | pass | chatgpt.com agent |
+| Claude Sonnet 4.6 | fail | LLM (API) |
+| Claude Sonnet 4.6 (non-adaptive) | pass | claude.ai agent |
+| Claude Sonnet 4.6 Adaptive | pass | claude.ai agent |
+| Claude Opus 4.6 | pass, verbose | LLM (API) |
+| Claude Opus 4.7 | fail | LLM (API) |
+| Claude Opus 4.7 (non-adaptive) | pass | claude.ai agent |
+| Claude Opus 4.7 Adaptive | pass | claude.ai agent |
+| Claude Haiku 4.5 | fail | claude.ai agent |
 
 ## Responses
 
@@ -117,6 +122,64 @@ Gets the answer right immediately and clearly: "You should drive 🚗". Recogniz
 > So the real answer: drive the car (since the car is what's being washed), then optionally walk back home while it's being cleaned if you don't want to wait around. 🚗🧼
 
 Starts confidently with "Walk!" and builds an entire argument for walking before realizing mid-response that the car needs to be at the car wash. While it eventually self-corrects to the right answer, the initial reasoning is fundamentally flawed. A passing response should identify the core logic immediately, not stumble into it after several paragraphs of wrong reasoning.
+
+### Claude Sonnet 4.6 (non-adaptive, claude.ai) — *pass*
+
+> Drive — it's a car wash, after all! You'll need the car there regardless.
+
+Concise and correct. Immediately identifies the core logic with minimal words.
+
+### Claude Sonnet 4.6 Adaptive (claude.ai) — *pass*
+
+> Drive — you need the car to be there to get it washed! Walking would just get you to the car wash without the car, which defeats the purpose.
+> That said, 100 meters is a very short distance, so the practical move is: drive the car there, then walk back home while it's being washed (if it's a drop-off service), or just wait for it. Either way, the car makes the trip — you get to choose whether you do too.
+
+Clear and correct from the start. Adds some practical suggestions about walking back, which are sensible.
+
+### Claude Opus 4.7 (non-adaptive, claude.ai) — *pass*
+
+> If the car wash is 100 meters away, you'll obviously want to drive — the whole point is to get your car there to be washed. Walking would leave the dirty car at home.
+>
+> You could walk back home afterward if you wanted the exercise, but then you'd have to walk back to pick it up later, so driving it home is simpler.
+
+Correct and straightforward. Gets the logic right immediately and considers practical details.
+
+### Claude Opus 4.7 Adaptive (claude.ai) — *pass*
+
+> You're talking about a hundred meters — that's about the length of a football field, a one-minute walk. But here's the catch: you need to get the car washed.
+> So driving isn't really optional here. The whole point is to bring the car to the wash. Unless you've figured out how to carry your car there on foot, the car has to make the trip regardless.
+> Then you drive back home clean. The "walk vs. drive" question doesn't really apply, since the car is the thing that needs to be there.
+> (Now, if the question were whether you should also be present versus, say, sending the car off with valet service — that's different. But assuming you're driving your own car through the wash, you and the car go together.)
+
+Clear reasoning from the start. Identifies the core logic and explains why the question doesn't really make sense as posed.
+
+### Claude Haiku 4.5 (claude.ai) — *fail*
+
+> This is a fun optimization problem! Let me think through the trade-offs:
+> Walking (100 meters ≈ 1-2 minutes on foot)
+>
+> Pros: No fuel cost, no emissions, good for a quick walk, parking is zero hassle
+> Cons: You'll arrive on foot at a car wash with a dirty car—a bit awkward. You'd need to either walk back home (another 100m after waiting) or wait around
+>
+> Driving (100 meters ≈ 30 seconds)
+>
+> Pros: Gets you there immediately, you can stay with your car, no walking involved
+> Cons: Burning fuel for a 30-second trip is hilariously inefficient; the car barely warms up
+>
+> The practical answer: Drive. Even though it feels wasteful, you're there in seconds, and you avoid the logistics of leaving your car unattended while you walk home. The fuel cost for such a short trip is negligible (we're talking fractions of a cent), and the convenience win is real.
+> The satisfying answer: Walk. If you enjoy the walk and don't mind the waiting-around part, you get exercise out of an errand you're already doing. Plus there's something philosophically pleasing about rejecting a car trip for something that close.
+> My actual take: Drive there, but maybe think about consolidating other errands nearby into one trip next time—that's where you'd actually optimize for efficiency.
+
+The response recognizes some aspects of the problem (mentions "arrive on foot at a car wash with a dirty car" and "avoid the logistics of leaving your car unattended") but then treats walking as a viable option in "The satisfying answer" section. The reasoning becomes confused and doesn't clearly commit to the fundamental logic that you need the car at the car wash.
+
+## Key Finding: Agents vs LLMs
+
+**Important distinction:** The claude.ai agent interface consistently handles this task correctly (4/5 pass, with only Haiku failing), while raw Claude LLMs via API have mixed results (1/3 pass). This demonstrates that agent systems built around LLMs add significant value:
+
+- **claude.ai agents**: Sonnet 4.6 (both modes), Opus 4.6, Opus 4.7 (both modes) all pass ✓
+- **Claude LLMs (API)**: Sonnet 4.6 and Opus 4.7 fail; only Opus 4.6 passes
+
+The chatgpt.com agent similarly shows variation (2/3 pass), suggesting that modern agent interfaces are solving problems that raw LLMs still struggle with.
 
 ## Evaluation Criteria
 

@@ -9,7 +9,7 @@ Tracking AI agent capabilities across a range of tasks to measure and compare pe
 | [Chats](./chats/) | [100m Car Wash](./chats/100m-car-wash/) | 12 | pass (ChatGPT 5.5 Pro Extended) |
 | [Chats](./chats/) | [Scientific Inquiry Quote](./chats/scientific-inquiry-quote/) | 0 | not yet tested |
 | [Image Generation](./image-generation/) | [Wine Glass Full to the Brim](./image-generation/wine-glass-full-to-brim/) | 3 | fail, almost passes (ChatGPT) |
-| [Sheet Music](./sheet-music/) | [Three Blind Mice](./sheet-music/three-blind-mice/) | 0 | not yet tested |
+| [Sheet Music](./sheet-music/) | [Three Blind Mice](./sheet-music/three-blind-mice/) | 1 | fail (Gemini 3.1 Pro) |
 | [Sheet Music](./sheet-music/) | [Music Theory Homework](./sheet-music/music-theory-homework/) | 1 | fail (ChatGPT Auto) |
 | [Sheet Music](./sheet-music/) | [Transposition](./sheet-music/transposition/) | 0 | not yet tested |
 | [Sheet Music](./sheet-music/) | [String Trio Transcription](./sheet-music/transcription/) | 0 | not yet tested |

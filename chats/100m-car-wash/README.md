@@ -16,6 +16,7 @@ A simple, practical question with an amusing logical tension: the car wash is so
 |---|---|---|
 | GPT 5.3 Instant | correct, but weird | |
 | GPT 5.2 Thinking | fail | |
+| Claude Sonnet 4.6 | fail | |
 
 ## Responses
 
@@ -51,6 +52,27 @@ A simple, practical question with an amusing logical tension: the car wash is so
 > * or you're already in the car and literally passing it.
 >
 > Otherwise: stroll over, then bring the car when it's time.
+
+### Claude Sonnet 4.6 — *fail*
+
+> This is a fun little practical dilemma! Here's a quick breakdown:
+>
+> You should probably 🚶 walk.
+>
+> Here's why:
+>
+> It's only 100 meters away — that's about a 1–2 minute walk. It's essentially your neighbor's driveway distance!
+> It makes no sense to drive a dirty car 100m just to wash it, especially when walking is just as fast (or faster, considering parking).
+> It saves fuel — driving 100m burns a tiny but unnecessary amount of gas/energy.
+> It's good for you — a short walk is always a win.
+> The only reasons you might drive:
+>
+> You have mobility issues that make walking difficult.
+> The car wash is a drive-through style where you need to be in the car for the wash (in which case you'd drive through it, not walk to it).
+> Weather conditions make walking unpleasant or unsafe.
+> So assuming it's a standard car wash and you're able-bodied — walk over, then drive your car to the wash from there (or more likely, just drive it the 100m directly into the car wash if it's a drive-through). Either way, it's a short and easy trip! 🚗✨
+
+The response recommends walking but then contradicts itself by suggesting to "walk over, then drive your car to the wash from there" — which is logically incoherent. Like GPT 5.2 Thinking, it fails to clearly recognize that you need the car at the car wash to get it washed, so you should just drive it there.
 
 ## Evaluation Criteria
 

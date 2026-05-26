@@ -16,6 +16,7 @@ A simple, practical question with an amusing logical tension: the car wash is so
 |---|---|---|
 | ChatGPT (GPT 5.3 Instant) | correct, but weird | |
 | ChatGPT (GPT 5.2 Thinking) | fail | |
+| ChatGPT 5.5 Pro Extended | pass | |
 | Claude Sonnet 4.6 | fail | |
 | Claude Opus 4.6 | pass, verbose | |
 
@@ -53,6 +54,14 @@ A simple, practical question with an amusing logical tension: the car wash is so
 > * or you're already in the car and literally passing it.
 >
 > Otherwise: stroll over, then bring the car when it's time.
+
+### ChatGPT 5.5 Pro Extended — *pass*
+
+> Drive — the point is to get the car to the car wash.
+>
+> You can walk back home afterward if you're dropping it off, but to actually wash the car, driving the 100 meters makes sense.
+
+Perfect. Clear, concise, and immediately identifies the core logic: you need to get the car to the car wash. No contradictions, no unnecessary elaboration.
 
 ### Claude Sonnet 4.6 — *fail*
 

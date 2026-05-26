@@ -12,6 +12,9 @@ Tracking AI agent capabilities across a range of tasks to measure and compare pe
 | [Sheet Music](./sheet-music/) | [Music Theory Homework](./sheet-music/music-theory-homework/) | 1 | fail (ChatGPT Auto) |
 | [Sheet Music](./sheet-music/) | [Transposition](./sheet-music/transposition/) | 0 | not yet tested |
 | [Sheet Music](./sheet-music/) | [String Trio Transcription](./sheet-music/transcription/) | 0 | not yet tested |
+| [Image and Language Parsing](./image-and-language-parsing/) | [Diary Entry](./image-and-language-parsing/diary-entry/) | 0 | not yet tested |
+| [Image and Language Parsing](./image-and-language-parsing/) | [Simple Cipher](./image-and-language-parsing/simple-cipher/) | 0 | not yet tested |
+| [Image and Language Parsing](./image-and-language-parsing/) | [Mysterious Writing](./image-and-language-parsing/weird-writing/) | 0 | not yet tested |
 
 ## Categories
 
@@ -23,3 +26,6 @@ Tasks that evaluate an agent's ability to produce (or direct the production of) 
 
 ### Sheet Music
 Tasks that evaluate an agent's ability to generate, transcribe, or transform musical notation.
+
+### Image and Language Parsing
+Tasks that evaluate an agent's ability to read, interpret, and decode text from images, including handwritten documents, ciphers, and non-Latin scripts.

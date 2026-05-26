@@ -14,14 +14,14 @@ A simple, practical question with an amusing logical tension: the car wash is so
 
 | Agent | Score | Notes |
 |---|---|---|
-| GPT 5.3 Instant | correct, but weird | |
-| GPT 5.2 Thinking | fail | |
+| ChatGPT (GPT 5.3 Instant) | correct, but weird | |
+| ChatGPT (GPT 5.2 Thinking) | fail | |
 | Claude Sonnet 4.6 | fail | |
 | Claude Opus 4.6 | pass, verbose | |
 
 ## Responses
 
-### GPT 5.3 Instant — *correct, but weird*
+### ChatGPT (GPT 5.3 Instant) — *correct, but weird*
 
 > If the car needs to be washed, you pretty much answered your own question: you have to get the car there somehow 🚗🙂
 > But since the wash is only ~100 m away, there are a few amusingly practical options:
@@ -43,7 +43,7 @@ A simple, practical question with an amusing logical tension: the car wash is so
 > Just drive it. The distance is so small that the fuel used is negligible, and you're already planning to run the car through machinery that uses far more water and energy than the drive itself.
 > If you're curious, though, there's actually a fun physics question here: at ~100 m, the cold-start fuel burn might be the dominant factor. If you'd like, I can estimate how much fuel that tiny drive actually costs.
 
-### GPT 5.2 Thinking — *fail*
+### ChatGPT (GPT 5.2 Thinking) — *fail*
 
 > Walk.
 > 100 meters is about a 1–2 minute walk, and you're going to the car wash because the car is dirty—driving it there just adds a little more road grime (and you'll still have to park / queue / maneuver). Walking also lets you arrive, check the line/prices, and then pull the car over only when you're ready to start.
@@ -73,7 +73,7 @@ A simple, practical question with an amusing logical tension: the car wash is so
 > Weather conditions make walking unpleasant or unsafe.
 > So assuming it's a standard car wash and you're able-bodied — walk over, then drive your car to the wash from there (or more likely, just drive it the 100m directly into the car wash if it's a drive-through). Either way, it's a short and easy trip! 🚗✨
 
-The response recommends walking but then contradicts itself by suggesting to "walk over, then drive your car to the wash from there" — which is logically incoherent. Like GPT 5.2 Thinking, it fails to clearly recognize that you need the car at the car wash to get it washed, so you should just drive it there.
+The response recommends walking but then contradicts itself by suggesting to "walk over, then drive your car to the wash from there" — which is logically incoherent. Like ChatGPT (GPT 5.2 Thinking), it fails to clearly recognize that you need the car at the car wash to get it washed, so you should just drive it there.
 
 ### Claude Opus 4.6 — *pass, verbose*
 

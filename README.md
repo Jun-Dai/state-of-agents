@@ -10,7 +10,8 @@ Tracking AI agent capabilities across a range of tasks to measure and compare pe
 | [Image Generation](./image-generation/) | [Wine Glass Full to the Brim](./image-generation/wine-glass-full-to-brim/) | 2 | fail, almost passes (both) |
 | [Sheet Music](./sheet-music/) | [Three Blind Mice](./sheet-music/three-blind-mice/) | 0 | not yet tested |
 | [Sheet Music](./sheet-music/) | [Music Theory Homework](./sheet-music/music-theory-homework/) | 1 | fail (ChatGPT Auto) |
-| [Coding](./coding/) | [Convert CommonJS to ESM](./coding/convert-commonjs-to-esm/) | 0 | not yet tested |
+| [Sheet Music](./sheet-music/) | [Transposition](./sheet-music/transposition/) | 0 | not yet tested |
+| [Sheet Music](./sheet-music/) | [String Trio Transcription](./sheet-music/transcription/) | 0 | not yet tested |
 
 ## Categories
 
@@ -21,7 +22,4 @@ Conversational tasks that test an agent's ability to reason, inform, and engage 
 Tasks that evaluate an agent's ability to produce (or direct the production of) images matching a given description.
 
 ### Sheet Music
-Tasks that evaluate an agent's ability to generate or transcribe musical notation.
-
-### Coding
-Tasks that evaluate an agent's ability to write, refactor, or transform code correctly.
+Tasks that evaluate an agent's ability to generate, transcribe, or transform musical notation.

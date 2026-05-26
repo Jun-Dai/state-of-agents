@@ -20,6 +20,8 @@ Ask the agent to produce a PDF of sheet music for "Three Blind Mice" arranged fo
 
 ### GPT 5.3 Instant — *fail*
 
+Output PDF: [three-blind-mice-gpt-3.5-instant.pdf](./three-blind-mice-gpt-3.5-instant.pdf)
+
 Agent response:
 
 > I've generated the PDF for you.

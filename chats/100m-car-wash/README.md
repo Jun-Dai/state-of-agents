@@ -25,6 +25,7 @@ A simple, practical question with an amusing logical tension: the car wash is so
 | Claude Opus 4.7 (non-adaptive) | pass | claude.ai agent |
 | Claude Opus 4.7 Adaptive | pass | claude.ai agent |
 | Claude Haiku 4.5 | fail | claude.ai agent |
+| Gemini 3.1 Pro (Thinking: Standard) | pass | Gemini agent |
 
 ## Responses
 
@@ -172,14 +173,22 @@ Clear reasoning from the start. Identifies the core logic and explains why the q
 
 The response recognizes some aspects of the problem (mentions "arrive on foot at a car wash with a dirty car" and "avoid the logistics of leaving your car unattended") but then treats walking as a viable option in "The satisfying answer" section. The reasoning becomes confused and doesn't clearly commit to the fundamental logic that you need the car at the car wash.
 
+### Gemini 3.1 Pro (Thinking: Standard) — *pass*
+
+> You should definitely drive! If you walk, your car will still be sitting at home, and it's going to be pretty hard to get it washed without it being there.
+
+Perfectly concise and gets straight to the point. Identifies the core logic immediately with a touch of humor.
+
 ## Key Finding: Agents vs LLMs
 
-**Important distinction:** The claude.ai agent interface consistently handles this task correctly (4/5 pass, with only Haiku failing), while raw Claude LLMs via API have mixed results (1/3 pass). This demonstrates that agent systems built around LLMs add significant value:
+**Important distinction:** Modern agent interfaces consistently handle this task better than raw LLMs:
 
-- **claude.ai agents**: Sonnet 4.6 (both modes), Opus 4.6, Opus 4.7 (both modes) all pass ✓
-- **Claude LLMs (API)**: Sonnet 4.6 and Opus 4.7 fail; only Opus 4.6 passes
+- **claude.ai agents**: 4/5 pass (Sonnet 4.6 both modes, Opus 4.7 both modes pass; only Haiku fails)
+- **Claude LLMs (API)**: 1/3 pass (only Opus 4.6 passes; Sonnet 4.6 and Opus 4.7 fail)
+- **chatgpt.com agents**: 2/3 pass (5.5 Pro Extended and 5.3 Instant pass; 5.2 Thinking fails)
+- **Gemini agent**: 1/1 pass (3.1 Pro with Thinking: Standard passes)
 
-The chatgpt.com agent similarly shows variation (2/3 pass), suggesting that modern agent interfaces are solving problems that raw LLMs still struggle with.
+This demonstrates that agent systems built around LLMs add significant value beyond the base models, solving problems that raw LLM API calls still struggle with.
 
 ## Evaluation Criteria
 

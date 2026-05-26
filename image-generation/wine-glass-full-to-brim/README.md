@@ -14,20 +14,20 @@ Ask the agent to generate an image of a wine glass that is full to the brim of r
 
 | Agent | Score | Notes |
 |---|---|---|
-| GPT 5.3 Instant | fail, almost passes | Fuller than typical model output; wine is just shy of the brim (close enough most humans would call it full), but no meniscus above the rim |
-| GPT 5.2 Thinking | fail, almost passes | Same assessment as 5.3 Instant — would pass if not for the missing meniscus |
+| ChatGPT (GPT 5.3 Instant) | fail, almost passes | Fuller than typical model output; wine is just shy of the brim (close enough most humans would call it full), but no meniscus above the rim |
+| ChatGPT (GPT 5.2 Thinking) | fail, almost passes | Same assessment as 5.3 Instant — would pass if not for the missing meniscus |
 
 ## Responses
 
-### GPT 5.3 Instant — *fail, almost passes*
+### ChatGPT (GPT 5.3 Instant) — *fail, almost passes*
 
-![GPT 5.3 Instant output](./gpt-5.3-instant.png)
+![ChatGPT (GPT 5.3 Instant) output](./gpt-5.3-instant.png)
 
 Fuller than any prior model output observed. Wine level is just shy of the brim — close enough that most humans would call it full — but there is no meniscus extending above the rim as requested.
 
-### GPT 5.2 Thinking — *fail, almost passes*
+### ChatGPT (GPT 5.2 Thinking) — *fail, almost passes*
 
-![GPT 5.2 Thinking output](./gpt-5.2-thinking.png)
+![ChatGPT (GPT 5.2 Thinking) output](./gpt-5.2-thinking.png)
 
 Same assessment as 5.3 Instant. Would be a pass if not for the missing meniscus.
 

@@ -17,6 +17,7 @@ A simple, practical question with an amusing logical tension: the car wash is so
 | GPT 5.3 Instant | correct, but weird | |
 | GPT 5.2 Thinking | fail | |
 | Claude Sonnet 4.6 | fail | |
+| Claude Opus 4.6 | pass, verbose | |
 
 ## Responses
 
@@ -73,6 +74,24 @@ A simple, practical question with an amusing logical tension: the car wash is so
 > So assuming it's a standard car wash and you're able-bodied — walk over, then drive your car to the wash from there (or more likely, just drive it the 100m directly into the car wash if it's a drive-through). Either way, it's a short and easy trip! 🚗✨
 
 The response recommends walking but then contradicts itself by suggesting to "walk over, then drive your car to the wash from there" — which is logically incoherent. Like GPT 5.2 Thinking, it fails to clearly recognize that you need the car at the car wash to get it washed, so you should just drive it there.
+
+### Claude Opus 4.6 — *pass, verbose*
+
+> This is a fun practical question! Here's my take:
+>
+> You should drive 🚗
+> Even though the car wash is only 100 meters away, the whole point is to get your car washed — so you need to bring your car with you! You can't exactly carry it there on foot. 😄
+>
+> Here's the practical plan:
+>
+> Drive your car the 100 meters to the car wash
+> While it's being washed, you could walk back home (it's only about a 1-2 minute walk)
+> Walk back to pick it up when it's done
+> Or simply wait there while it's being washed — 100 meters is so close that either option works perfectly.
+>
+> The only scenario where you'd walk is if you're dropping off the car and they offer a pick-up/delivery service, but even then, driving it there first is the logical move!
+
+Gets the answer right immediately and clearly: "You should drive 🚗". Recognizes the key point that "you need to bring your car with you!" The response is somewhat verbose but logically sound throughout.
 
 ## Evaluation Criteria
 

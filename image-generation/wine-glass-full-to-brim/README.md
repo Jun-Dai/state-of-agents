@@ -16,6 +16,7 @@ Ask the agent to generate an image of a wine glass that is full to the brim of r
 |---|---|---|
 | ChatGPT (GPT 5.3 Instant) | fail, almost passes | Fuller than typical model output; wine is just shy of the brim (close enough most humans would call it full), but no meniscus above the rim |
 | ChatGPT (GPT 5.2 Thinking) | fail, almost passes | Same assessment as 5.3 Instant — would pass if not for the missing meniscus |
+| Gemini 3.1 Pro (Thinking: Standard) | fail | Glass only 2/3 full with disturbing bulge in wine surface |
 
 ## Responses
 
@@ -30,6 +31,12 @@ Fuller than any prior model output observed. Wine level is just shy of the brim 
 ![ChatGPT (GPT 5.2 Thinking) output](./gpt-5.2-thinking.png)
 
 Same assessment as 5.3 Instant. Would be a pass if not for the missing meniscus.
+
+### Gemini 3.1 Pro (Thinking: Standard) — *fail*
+
+![Gemini 3.1 Pro output](./gemini-3.1-pro.png)
+
+Glass is only approximately 2/3 full, well below the brim. Additionally, the wine surface has an unnatural bulge/curve that doesn't match realistic liquid physics. Significantly worse than the ChatGPT results which at least get close to the brim.
 
 ## Evaluation Criteria
 

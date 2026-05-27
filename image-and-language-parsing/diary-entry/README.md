@@ -16,7 +16,7 @@ Ask the agent to read and translate a handwritten diary entry.
 
 | Agent | Score | Notes |
 |---|---|---|
-| ChatGPT 5.5 Pro Extended | pass, with caveats | Initial title wrong, corrected when pushed; 18 min initial response, 8 min correction |
+| [ChatGPT 5.5 Pro Extended](#chatgpt-55-pro-extended--pass-with-caveats) | pass, with caveats | Initial title wrong, corrected when pushed; 18 min initial response, 8 min correction |
 
 ## Responses
 

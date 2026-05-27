@@ -16,8 +16,8 @@ Ask the agent to decipher mysterious writing on a piece of paper.
 
 | Agent | Score | Notes |
 |---|---|---|
-| ChatGPT 5.5 Pro Extended | fail | Hallucinated completely wrong answer; 19 min response time |
-| Claude Opus 4.7 Adaptive | fail | Could not identify script; admitted uncertainty rather than hallucinating |
+| [ChatGPT 5.5 Pro Extended](#chatgpt-55-pro-extended--fail) | fail | Hallucinated completely wrong answer; 19 min response time |
+| [Claude Opus 4.7 Adaptive](#claude-opus-47-adaptive--fail) | fail | Could not identify script; admitted uncertainty rather than hallucinating |
 
 ## Responses
 

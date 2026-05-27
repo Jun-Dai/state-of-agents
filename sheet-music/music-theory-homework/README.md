@@ -18,7 +18,7 @@ The agent is shown an image of music theory homework and asked to evaluate it an
 
 | Agent | Score | Notes |
 |---|---|---|
-| ChatGPT - Auto | fail | Confidently wrong throughout — misreads bass notes, identifies wrong chords, produces a polished but useless answer |
+| [ChatGPT - Auto](#chatgpt---auto--fail) | fail | Confidently wrong throughout — misreads bass notes, identifies wrong chords, produces a polished but useless answer |
 
 ## Responses
 

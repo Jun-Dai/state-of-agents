@@ -14,7 +14,7 @@ Ask the agent to produce sheet music for the traditional nursery rhyme "Three Bl
 
 | Agent | Score | Notes |
 |---|---|---|
-| Gemini 3.1 Pro (Thinking: Standard) | fail | Pitches mostly correct, but rhythm completely wrong |
+| [Gemini 3.1 Pro (Thinking: Standard)](#gemini-31-pro-thinking-standard--fail) | fail | Pitches mostly correct, but rhythm completely wrong |
 
 ## Responses
 

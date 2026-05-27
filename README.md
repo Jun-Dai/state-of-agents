@@ -4,19 +4,44 @@ Tracking AI agent capabilities across a range of tasks to measure and compare pe
 
 ## Summary
 
+### Solved Problems
+
+Tasks where at least one agent has achieved a passing result.
+
 | Category | Task | Agents tested | Best result |
 |---|---|---|---|
 | [Chats](./chats/) | [100m Car Wash](./chats/100m-car-wash/) | 12 | pass (ChatGPT 5.5 Pro Extended) |
-| [Chats](./chats/) | [Scientific Inquiry Quote](./chats/scientific-inquiry-quote/) | 0 | not yet tested |
-| [Image Generation](./image-generation/) | [Wine Glass Full to the Brim](./image-generation/wine-glass-full-to-brim/) | 3 | fail, almost passes (ChatGPT) |
-| [Sheet Music](./sheet-music/) | [Three Blind Mice](./sheet-music/three-blind-mice/) | 1 | fail (Gemini 3.1 Pro) |
-| [Sheet Music](./sheet-music/) | [Music Theory Homework](./sheet-music/music-theory-homework/) | 1 | fail (ChatGPT Auto) |
-| [Sheet Music](./sheet-music/) | [Transposition](./sheet-music/transposition/) | 0 | not yet tested |
-| [Sheet Music](./sheet-music/) | [String Trio Transcription](./sheet-music/transcription/) | 0 | not yet tested |
 | [Image and Language Parsing](./image-and-language-parsing/) | [Diary Entry](./image-and-language-parsing/diary-entry/) | 1 | pass, with caveats (ChatGPT 5.5 Pro Extended) |
 | [Image and Language Parsing](./image-and-language-parsing/) | [Simple Cipher](./image-and-language-parsing/simple-cipher/) | 2 | pass (ChatGPT 5.5 Pro Extended) |
+
+### Close
+
+Tasks where agents have come close but not quite achieved a pass.
+
+| Category | Task | Agents tested | Best result |
+|---|---|---|---|
+| [Image Generation](./image-generation/) | [Wine Glass Full to the Brim](./image-generation/wine-glass-full-to-brim/) | 3 | fail, almost passes (ChatGPT) |
+
+### Not Close
+
+Tasks where agents have been tested but are far from passing.
+
+| Category | Task | Agents tested | Best result |
+|---|---|---|---|
+| [Sheet Music](./sheet-music/) | [Three Blind Mice](./sheet-music/three-blind-mice/) | 1 | fail (Gemini 3.1 Pro) |
+| [Sheet Music](./sheet-music/) | [Music Theory Homework](./sheet-music/music-theory-homework/) | 1 | fail (ChatGPT Auto) |
 | [Image and Language Parsing](./image-and-language-parsing/) | [Mysterious Writing](./image-and-language-parsing/weird-writing/) | 2 | fail (ChatGPT 5.5 Pro Extended, Claude Opus 4.7 Adaptive) |
-| [Image and Language Parsing](./image-and-language-parsing/) | [Hand-Drawn Map Navigation](./image-and-language-parsing/hand-drawn-map/) | 0 | not yet tested |
+
+### Not Yet Tested
+
+Tasks that have not been evaluated by any agents yet.
+
+| Category | Task |
+|---|---|
+| [Chats](./chats/) | [Scientific Inquiry Quote](./chats/scientific-inquiry-quote/) |
+| [Sheet Music](./sheet-music/) | [Transposition](./sheet-music/transposition/) |
+| [Sheet Music](./sheet-music/) | [String Trio Transcription](./sheet-music/transcription/) |
+| [Image and Language Parsing](./image-and-language-parsing/) | [Hand-Drawn Map Navigation](./image-and-language-parsing/hand-drawn-map/) |
 
 ## Categories
 

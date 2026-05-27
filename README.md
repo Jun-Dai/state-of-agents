@@ -11,6 +11,7 @@ Tasks where at least one agent has achieved a passing result.
 | Category | Task | Agents tested | Best result |
 |---|---|---|---|
 | [Chats](./chats/) | [100m Car Wash](./chats/100m-car-wash/) | 12 | pass (ChatGPT 5.5 Pro Extended) |
+| [Image Generation](./image-generation/) | [Wine Glass Full to the Brim](./image-generation/wine-glass-full-to-brim/) | 4 | pass (ChatGPT 5.5 Pro Extended) |
 | [Image and Language Parsing](./image-and-language-parsing/) | [Diary Entry](./image-and-language-parsing/diary-entry/) | 1 | pass, with caveats (ChatGPT 5.5 Pro Extended) |
 | [Image and Language Parsing](./image-and-language-parsing/) | [Simple Cipher](./image-and-language-parsing/simple-cipher/) | 2 | pass (ChatGPT 5.5 Pro Extended) |
 
@@ -20,7 +21,6 @@ Tasks where agents have come close but not quite achieved a pass.
 
 | Category | Task | Agents tested | Best result |
 |---|---|---|---|
-| [Image Generation](./image-generation/) | [Wine Glass Full to the Brim](./image-generation/wine-glass-full-to-brim/) | 3 | fail, almost passes (ChatGPT) |
 
 ### Not Close
 

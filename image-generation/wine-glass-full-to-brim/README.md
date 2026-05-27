@@ -14,11 +14,25 @@ Ask the agent to generate an image of a wine glass that is full to the brim of r
 
 | Agent | Score | Notes |
 |---|---|---|
+| [ChatGPT 5.5 Pro Extended](#chatgpt-55-pro-extended--pass) | pass | Wine filled to brim with clear meniscus extending above rim |
 | [ChatGPT (GPT 5.3 Instant)](#chatgpt-gpt-53-instant--fail-almost-passes) | fail, almost passes | Fuller than typical model output; wine is just shy of the brim (close enough most humans would call it full), but no meniscus above the rim |
 | [ChatGPT (GPT 5.2 Thinking)](#chatgpt-gpt-52-thinking--fail-almost-passes) | fail, almost passes | Same assessment as 5.3 Instant — would pass if not for the missing meniscus |
 | [Gemini 3.1 Pro (Thinking: Standard)](#gemini-31-pro-thinking-standard--fail) | fail | Glass only 2/3 full with disturbing bulge in wine surface |
 
 ## Responses
+
+### ChatGPT 5.5 Pro Extended — *pass*
+
+![ChatGPT 5.5 Pro Extended output](./chatgpt-5.5-pro-extended.png)
+
+Finally, a success! This image correctly shows:
+- ✅ A proper wine glass with correct shape, stem, and bowl
+- ✅ Red wine filled to the brim
+- ✅ A clear meniscus extending above the rim of the glass
+- ✅ Photorealistic quality with good lighting and composition
+- ✅ No distortions or unusual artifacts
+
+The wine surface curves upward above the glass rim as requested, demonstrating proper liquid physics. After multiple near-misses from other ChatGPT models that got close but lacked the meniscus, ChatGPT 5.5 Pro Extended has successfully solved this task.
 
 ### ChatGPT (GPT 5.3 Instant) — *fail, almost passes*
 
@@ -42,6 +56,7 @@ Glass is only approximately 2/3 full, well below the brim. Additionally, the win
 
 - **Accuracy**: Does the image depict a wine glass (correct shape, stem, bowl)?
 - **Full to the brim**: Is the wine filled exactly to the rim without overflowing?
+- **Meniscus**: Does the wine have a visible meniscus extending above the rim as requested in the prompt?
 - **Color**: Is the wine visibly red?
 - **Quality**: Is the image photorealistic or otherwise high quality?
 - **Atmosphere**: Is the lighting and composition visually appealing?

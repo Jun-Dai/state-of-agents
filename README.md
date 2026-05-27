@@ -21,6 +21,7 @@ Tasks where agents have come close but not quite achieved a pass.
 
 | Category | Task | Agents tested | Best result |
 |---|---|---|---|
+| [Sheet Music](./sheet-music/) | [Sheet Music Identification](./sheet-music/sheet-music-identification/) | 2 | fail, very close (ChatGPT 5.5 Pro Extended) |
 
 ### Not Close
 

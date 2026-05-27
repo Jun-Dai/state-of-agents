@@ -14,18 +14,18 @@ A simple, practical question with an amusing logical tension: the car wash is so
 
 | Agent | Score | Notes |
 |---|---|---|
-| ChatGPT (GPT 5.3 Instant) | correct, but weird | chatgpt.com agent |
-| ChatGPT (GPT 5.2 Thinking) | fail | chatgpt.com agent |
-| ChatGPT 5.5 Pro Extended | pass | chatgpt.com agent |
-| Claude Sonnet 4.6 | fail | LLM (API) |
-| Claude Sonnet 4.6 (non-adaptive) | pass | claude.ai agent |
-| Claude Sonnet 4.6 Adaptive | pass | claude.ai agent |
-| Claude Opus 4.6 | pass, verbose | LLM (API) |
-| Claude Opus 4.7 | fail | LLM (API) |
-| Claude Opus 4.7 (non-adaptive) | pass | claude.ai agent |
-| Claude Opus 4.7 Adaptive | pass | claude.ai agent |
-| Claude Haiku 4.5 | fail | claude.ai agent |
-| Gemini 3.1 Pro (Thinking: Standard) | pass | Gemini agent |
+| [ChatGPT (GPT 5.3 Instant)](#chatgpt-gpt-53-instant--correct-but-weird) | correct, but weird | chatgpt.com agent |
+| [ChatGPT (GPT 5.2 Thinking)](#chatgpt-gpt-52-thinking--fail) | fail | chatgpt.com agent |
+| [ChatGPT 5.5 Pro Extended](#chatgpt-55-pro-extended--pass) | pass | chatgpt.com agent |
+| [Claude Sonnet 4.6](#claude-sonnet-46--fail) | fail | LLM (API) |
+| [Claude Sonnet 4.6 (non-adaptive)](#claude-sonnet-46-non-adaptive-claudeai--pass) | pass | claude.ai agent |
+| [Claude Sonnet 4.6 Adaptive](#claude-sonnet-46-adaptive-claudeai--pass) | pass | claude.ai agent |
+| [Claude Opus 4.6](#claude-opus-46--pass-verbose) | pass, verbose | LLM (API) |
+| [Claude Opus 4.7](#claude-opus-47--fail) | fail | LLM (API) |
+| [Claude Opus 4.7 (non-adaptive)](#claude-opus-47-non-adaptive-claudeai--pass) | pass | claude.ai agent |
+| [Claude Opus 4.7 Adaptive](#claude-opus-47-adaptive-claudeai--pass) | pass | claude.ai agent |
+| [Claude Haiku 4.5](#claude-haiku-45-claudeai--fail) | fail | claude.ai agent |
+| [Gemini 3.1 Pro (Thinking: Standard)](#gemini-31-pro-thinking-standard--pass) | pass | Gemini agent |
 
 ## Responses
 

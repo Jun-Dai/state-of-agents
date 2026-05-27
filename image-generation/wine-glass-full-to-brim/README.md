@@ -14,9 +14,9 @@ Ask the agent to generate an image of a wine glass that is full to the brim of r
 
 | Agent | Score | Notes |
 |---|---|---|
-| ChatGPT (GPT 5.3 Instant) | fail, almost passes | Fuller than typical model output; wine is just shy of the brim (close enough most humans would call it full), but no meniscus above the rim |
-| ChatGPT (GPT 5.2 Thinking) | fail, almost passes | Same assessment as 5.3 Instant — would pass if not for the missing meniscus |
-| Gemini 3.1 Pro (Thinking: Standard) | fail | Glass only 2/3 full with disturbing bulge in wine surface |
+| [ChatGPT (GPT 5.3 Instant)](#chatgpt-gpt-53-instant--fail-almost-passes) | fail, almost passes | Fuller than typical model output; wine is just shy of the brim (close enough most humans would call it full), but no meniscus above the rim |
+| [ChatGPT (GPT 5.2 Thinking)](#chatgpt-gpt-52-thinking--fail-almost-passes) | fail, almost passes | Same assessment as 5.3 Instant — would pass if not for the missing meniscus |
+| [Gemini 3.1 Pro (Thinking: Standard)](#gemini-31-pro-thinking-standard--fail) | fail | Glass only 2/3 full with disturbing bulge in wine surface |
 
 ## Responses
 

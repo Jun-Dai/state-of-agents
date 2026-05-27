@@ -16,8 +16,8 @@ Ask the agent to decode a message written in a cipher.
 
 | Agent | Score | Notes |
 |---|---|---|
-| ChatGPT 5.5 Pro Extended | pass | Complete decoding; 18 min response time |
-| Claude Opus 4.7 Adaptive | fail | Identified mechanism and decoded some words, but stopped short of full decipherment |
+| [ChatGPT 5.5 Pro Extended](#chatgpt-55-pro-extended--pass) | pass | Complete decoding; 18 min response time |
+| [Claude Opus 4.7 Adaptive](#claude-opus-47-adaptive--fail) | fail | Identified mechanism and decoded some words, but stopped short of full decipherment |
 
 ## Responses
 

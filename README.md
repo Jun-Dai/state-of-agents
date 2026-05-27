@@ -15,7 +15,7 @@ Tracking AI agent capabilities across a range of tasks to measure and compare pe
 | [Sheet Music](./sheet-music/) | [String Trio Transcription](./sheet-music/transcription/) | 0 | not yet tested |
 | [Image and Language Parsing](./image-and-language-parsing/) | [Diary Entry](./image-and-language-parsing/diary-entry/) | 1 | pass, with caveats (ChatGPT 5.5 Pro Extended) |
 | [Image and Language Parsing](./image-and-language-parsing/) | [Simple Cipher](./image-and-language-parsing/simple-cipher/) | 0 | not yet tested |
-| [Image and Language Parsing](./image-and-language-parsing/) | [Mysterious Writing](./image-and-language-parsing/weird-writing/) | 1 | fail (ChatGPT 5.5 Pro Extended) |
+| [Image and Language Parsing](./image-and-language-parsing/) | [Mysterious Writing](./image-and-language-parsing/weird-writing/) | 2 | fail (ChatGPT 5.5 Pro Extended, Claude Opus 4.7 Adaptive) |
 | [Image and Language Parsing](./image-and-language-parsing/) | [Hand-Drawn Map Navigation](./image-and-language-parsing/hand-drawn-map/) | 0 | not yet tested |
 
 ## Categories

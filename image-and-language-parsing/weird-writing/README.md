@@ -18,6 +18,7 @@ Ask the agent to decipher mysterious writing on a piece of paper.
 |---|---|---|
 | [ChatGPT 5.5 Pro Extended](#chatgpt-55-pro-extended--fail) | fail | Hallucinated completely wrong answer; 19 min response time |
 | [Claude Opus 4.7 Adaptive](#claude-opus-47-adaptive--fail) | fail | Could not identify script; admitted uncertainty rather than hallucinating |
+| [Claude Opus 4.8 Max](#claude-opus-48-max--fail) | fail | Wasted time on bleed-through text; claimed script was non-Latin/Indic; did not decode |
 
 ## Responses
 
@@ -127,6 +128,40 @@ This is a concerning failure mode - the agent didn't simply fail to decode the t
 - ⚠️ Initial focus: Started by analyzing wrong content (bleed-through), corrected after user redirect
 
 While this is a failure to decode the text, it demonstrates a much more responsible failure mode than hallucination. Claude admitted uncertainty, provided reasonable hypotheses, and asked clarifying questions rather than confidently inventing content.
+
+### Claude Opus 4.8 Max — *fail*
+
+**Performance notes:**
+- Prompt was adjusted to prevent asking follow-up questions (one-shot mode)
+- Spent significant time rotating and flipping the image
+- Successfully read the typed bleed-through patent text
+- Failed to decode the pencil writing
+
+**Response:**
+
+> I can see this is a tricky one — the writing is mirror-reversed (we're looking at the back of the sheet, where the front's pencil writing and typed patent text both show through). Let me flip the image so I can read it properly.The horizontal flip made the typed text readable ("UNITED STATES PATENT OFFICE" now reads correctly at the bottom), but the handwriting still appears upside-down — meaning the pencil writing was done with the page rotated 180° relative to the typed text. Let me correct for that and enhance the handwriting region.The vertical flip nails the typed text — it reads cleanly as **"UNITED STATES PATENTS RELATING TO AERIAL LOCOMOTION"** with a table of 1886 patents (Hunnicutt, Beardsley, Jongewaard, Patterson, Hamon, Cole). But the pencil writing is the harder target and still isn't resolving into plain English in any single flip. Let me zoom in and enhance the handwriting region across orientations to read it carefully.The original shows the pencil as mirror-writing. The typed text wanted a vertical flip, but the pencil may have been written in a different orientation, so let me check the remaining transforms directly.The pencil writing is proving genuinely difficult — in every orientation it reads as a rounded, loopy script rather than plain English, even though the typed patent list resolves cleanly. Let me zoom in much closer on the clearest rendering to scrutinize the actual letterforms before I commit to an answer.These letterforms are crisp and upright — they look like proper Latin letters (I can see clear "a", "e", "f", "g", "m", "s", "T", "l" shapes), yet they don't form English words ("ifgalmef", "Tmls", "aejnaiptfn"...). That points to it being either mirror-writing whose individual letters happen to look normal, or genuinely non-English. Let me run the decisive horizontal-flip test on this crisp crop.The horizontal-flip (document-true orientation) renders the pencil as a heavily looped, curl-laden script that doesn't look Latin at all — whereas the rot180 orientation showed crisp, upright, proper-looking letterforms. Since rotation (unlike mirroring) preserves letter chirality, those upright normal-looking "a/e/s/m" shapes mean rot180 is the writing's natural orientation. Let me get one clean, full view of all the lines in that orientation to attempt a complete reading.The physics now lines up: the typed patent list is on the far side (needs a vertical flip, which makes its caption read perfectly), while the pencil note is on the camera-facing side, written aligned to the page top — so it reads upright only under a 180° rotation, which is exactly the orientation where its letters appear as proper, upright forms. Let me get a final high-resolution look at the clearest lines to attempt a faithful reading.I worked through this carefully, and here's what I found.
+>
+> **The honest answer about the pencil writing: I can't give you a faithful transcription of it, and I don't think it's English.**
+>
+> Here's the reasoning, because the *why* matters more than a guess would. What you photographed is the **back** of a typed sheet. The typed text bleeds through and is mirror-reversed, and so is the pencil. I can prove I oriented things correctly, because once I flip the image, the typed side resolves perfectly into a list headed **"UNITED STATES PATENTS RELATING TO AERIAL LOCOMOTION,"** with six 1886 entries — Hunnicutt (Madern, Ark.), Beardsley (Dodge City, Kans.), Jongewaard (Harrison, Dak.), Patterson (San Francisco — steam air-ship), Hamon (Boulogne-sur-Seine, Fr. — dirigible/aerostat), and Cole (Rivas). Clean, unambiguous English. So my de-mirroring is sound.
+>
+> The pencil note is on the side facing your camera (not bleed-through), written aligned to the page top, so it reads upright only when the image is rotated 180°. The tell is chirality: rotation preserves letter handedness while mirroring reverses it, and only in the 180° orientation do the strokes sit upright as proper, non-reversed characters. So I'm confident I found its correct orientation.
+>
+> The problem is that **even correctly oriented, it doesn't spell English in any orientation I tried** (original, horizontal flip, vertical flip, 180°). What appears instead is a rounded, looping hand — lots of small bowls and circles strung together, with verticals carrying single loops, and at least one sentence-final period. That texture is characteristic of a Brahmic/Indic-family script (the kind of roundness you see in South Indian or Southeast Asian writing) rather than Latin cursive, which has more varied ascenders and descenders. It's roughly seven or eight lines with a couple of shorter indented lines and what could be a signature-like line near the end — structured like a short note or letter.
+>
+> I could *invent* a string of English words for you, but on a one-shot test that would be the wrong move: it would be fabrication, and I'd be confidently wrong. My genuine read is that the pencil writing is a looping non-Latin (probably Indic-style) script that I can't reliably transliterate from a faint scan without being able to confirm the language.
+>
+> If you want, the single most useful thing you could do is rephotograph that pencil side **directly** (not through the paper), right-side-up and in good light — that would let me give script identification a real attempt rather than reading ghosts through the page.
+
+**Assessment:**
+- ❌ Script identification: Incorrectly identified as potentially Brahmic/Indic script
+- ❌ Decoding/translation: Unable to decode despite it being English
+- ⚠️ Orientation handling: Correctly oriented the text after extensive testing
+- ❌ Distracted by trap: Wasted significant effort reading the typed bleed-through text (which the image deliberately presents as a trap)
+- ✅ Honesty: Refused to fabricate a reading, admitted inability
+- ⚠️ Efficiency: Spent excessive time on image manipulation and analyzing wrong content
+
+The agent fell into the same trap as previous models by spending time on the typed bleed-through text. While it correctly refused to fabricate a transcription, its fundamental failure to recognize English cursive handwriting (even after correctly orienting it) represents a significant capability gap. The claim that the script resembles Brahmic/Indic writing is factually incorrect - it is English cursive.
 
 ## Evaluation Criteria
 
